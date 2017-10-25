@@ -2,7 +2,7 @@
 
 This app simply tests whether a host:port is accessible from a CF app instance. For example can my application
 instance access my Oracle Database Instance running outside of PCF given application instances need network 
-access to the database for example.
+access to the database database for example.
 
 This app can verify the networking connectiviy for you. 
 
