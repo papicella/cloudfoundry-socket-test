@@ -33,7 +33,8 @@ public class SocketTestRest
         }
         catch (Exception e)
         {
-            logger.info(String.format("Failed to connect to host %s on port %s", host, port));
+            logger.error(String.format("Failed to connect to host %s on port %s", host, port));
+            logger.error(e.getMessage());
             result = new Result("FAILED", e.getMessage(), host, port);
         }
         finally
